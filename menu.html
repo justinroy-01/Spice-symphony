@@ -3,144 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media screen and (max-width: 768px) {
+            p, em {
+                font-size: 16px;
+                text-align: justify;
+                padding: 0 10px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            
+
+            table {
+                font-size: 14px;
+            }
+          }
+        
+
+        footer {
+            padding: 10px;
+        }
+    </style>
     <title>Menu</title>
 </head>
 <body>
     <center>
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">🍽️ Spice Symphony Menu</h1>
+        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-align: center;">🍽️ Spice Symphony Menu</h1>
+        <div style="overflow-x: auto; max-width: 100%;">
+            <table border="5px" style="width: 100%; border-collapse: collapse;">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chicken Steak</td>
+                  <td>Main Course</td>
+                  <td>Grilled chicken served with mashed potatoes and gravy</td>
+                  <td>₹350</td>
+                </tr>
+                <tr>
+                  <td>Fish Curry</td>
+                  <td>Main Course</td>
+                  <td>Spicy coastal-style fish curry with steamed rice</td>
+                  <td>₹320</td>
+                </tr>
+                <tr>
+                  <td>Veggie Bowl</td>
+                  <td>Main Course</td>
+                  <td>Colorful mix of stir-fried vegetables & tofu</td>
+                  <td>₹280</td>
+                </tr>
+                <tr>
+                  <td>Strawberry Cheesecake</td>
+                  <td>Dessert</td>
+                  <td>Rich cheesecake topped with fresh strawberries</td>
+                  <td>₹220</td>
+                </tr>
+                <tr>
+                  <td>Paneer Tikka</td>
+                  <td>Starter</td>
+                  <td>Marinated paneer grilled in tandoor</td>
+                  <td>₹180</td>
+                </tr>
+                <tr>
+                  <td>Spring Rolls</td>
+                  <td>Starter</td>
+                  <td>Golden-fried rolls stuffed with veggies</td>
+                  <td>₹150</td>
+                </tr>
+                <tr>
+                  <td>Butter Chicken</td>
+                  <td>Main Course</td>
+                  <td>Classic North Indian butter-rich chicken curry</td>
+                  <td>₹340</td>
+                </tr>
+                <tr>
+                  <td>Hakka Noodles</td>
+                  <td>Chinese</td>
+                  <td>Spicy stir-fried noodles with veggies and sauces</td>
+                  <td>₹210</td>
+                </tr>
+                <tr>
+                  <td>Egg Fried Rice</td>
+                  <td>Chinese</td>
+                  <td>Fluffy rice tossed with egg and seasonings</td>
+                  <td>₹200</td>
+                </tr>
+                <tr>
+                  <td>Chilli Chicken</td>
+                  <td>Chinese</td>
+                  <td>Boneless chicken tossed in spicy sauces</td>
+                  <td>₹240</td>
+                </tr>
+                <tr>
+                  <td>Greek Salad</td>
+                  <td>Salad</td>
+                  <td>Cucumber, olives, feta & vinaigrette</td>
+                  <td>₹160</td>
+                </tr>
+                <tr>
+                  <td>Tandoori Roti</td>
+                  <td>Bread</td>
+                  <td>Clay oven-cooked whole wheat flatbread</td>
+                  <td>₹30</td>
+                </tr>
+                <tr>
+                  <td>Garlic Naan</td>
+                  <td>Bread</td>
+                  <td>Soft naan topped with garlic & butter</td>
+                  <td>₹45</td>
+                </tr>
+                <tr>
+                  <td>Hot Chocolate</td>
+                  <td>Beverage</td>
+                  <td>Rich creamy cocoa drink topped with cream</td>
+                  <td>₹130</td>
+                </tr>
+                <tr>
+                  <td>Mango Lassi</td>
+                  <td>Beverage</td>
+                  <td>Sweet mango yogurt drink, chilled</td>
+                  <td>₹90</td>
+                </tr>
+                <tr>
+                  <td>Chocolate Brownie</td>
+                  <td>Dessert</td>
+                  <td>Warm chocolate brownie with nuts</td>
+                  <td>₹150</td>
+                </tr>
+                <tr>
+                  <td>Chicken Biryani</td>
+                  <td>Main Course</td>
+                  <td>Fragrant rice and spiced chicken layers</td>
+                  <td>₹330</td>
+                </tr>
+                <tr>
+                  <td>Tomato Soup</td>
+                  <td>Starter</td>
+                  <td>Classic creamy tomato soup with croutons</td>
+                  <td>₹110</td>
+                </tr>
+                <tr>
+                  <td>Gulab Jamun</td>
+                  <td>Dessert</td>
+                  <td>Milk-based sweet soaked in rose syrup</td>
+                  <td>₹90</td>
+                </tr>
+                <tr>
+                  <td>Ice Cream Sundae</td>
+                  <td>Dessert</td>
+                  <td>Vanilla ice cream topped with choco fudge & nuts</td>
+                  <td>₹140</td>
+                </tr>
+            </table>
+        </div>
 
-<table border="1" cellpadding="10" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Category</th>
-      <th>Description</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Chicken Steak</td>
-      <td>Main Course</td>
-      <td>Grilled chicken served with mashed potatoes and gravy</td>
-      <td>₹350</td>
-    </tr>
-    <tr>
-      <td>Fish Curry</td>
-      <td>Main Course</td>
-      <td>Spicy coastal-style fish curry with steamed rice</td>
-      <td>₹320</td>
-    </tr>
-    <tr>
-      <td>Veggie Bowl</td>
-      <td>Main Course</td>
-      <td>Colorful mix of stir-fried vegetables & tofu</td>
-      <td>₹280</td>
-    </tr>
-    <tr>
-      <td>Strawberry Cheesecake</td>
-      <td>Dessert</td>
-      <td>Rich cheesecake topped with fresh strawberries</td>
-      <td>₹220</td>
-    </tr>
-    <tr>
-      <td>Paneer Tikka</td>
-      <td>Starter</td>
-      <td>Marinated paneer grilled in tandoor</td>
-      <td>₹180</td>
-    </tr>
-    <tr>
-      <td>Spring Rolls</td>
-      <td>Starter</td>
-      <td>Golden-fried rolls stuffed with veggies</td>
-      <td>₹150</td>
-    </tr>
-    <tr>
-      <td>Butter Chicken</td>
-      <td>Main Course</td>
-      <td>Classic North Indian butter-rich chicken curry</td>
-      <td>₹340</td>
-    </tr>
-    <tr>
-      <td>Hakka Noodles</td>
-      <td>Chinese</td>
-      <td>Spicy stir-fried noodles with veggies and sauces</td>
-      <td>₹210</td>
-    </tr>
-    <tr>
-      <td>Egg Fried Rice</td>
-      <td>Chinese</td>
-      <td>Fluffy rice tossed with egg and seasonings</td>
-      <td>₹200</td>
-    </tr>
-    <tr>
-      <td>Chilli Chicken</td>
-      <td>Chinese</td>
-      <td>Boneless chicken tossed in spicy sauces</td>
-      <td>₹240</td>
-    </tr>
-    <tr>
-      <td>Greek Salad</td>
-      <td>Salad</td>
-      <td>Cucumber, olives, feta & vinaigrette</td>
-      <td>₹160</td>
-    </tr>
-    <tr>
-      <td>Tandoori Roti</td>
-      <td>Bread</td>
-      <td>Clay oven-cooked whole wheat flatbread</td>
-      <td>₹30</td>
-    </tr>
-    <tr>
-      <td>Garlic Naan</td>
-      <td>Bread</td>
-      <td>Soft naan topped with garlic & butter</td>
-      <td>₹45</td>
-    </tr>
-    <tr>
-      <td>Hot Chocolate</td>
-      <td>Beverage</td>
-      <td>Rich creamy cocoa drink topped with cream</td>
-      <td>₹130</td>
-    </tr>
-    <tr>
-      <td>Mango Lassi</td>
-      <td>Beverage</td>
-      <td>Sweet mango yogurt drink, chilled</td>
-      <td>₹90</td>
-    </tr>
-    <tr>
-      <td>Chocolate Brownie</td>
-      <td>Dessert</td>
-      <td>Warm chocolate brownie with nuts</td>
-      <td>₹150</td>
-    </tr>
-    <tr>
-      <td>Chicken Biryani</td>
-      <td>Main Course</td>
-      <td>Fragrant rice and spiced chicken layers</td>
-      <td>₹330</td>
-    </tr>
-    <tr>
-      <td>Tomato Soup</td>
-      <td>Starter</td>
-      <td>Classic creamy tomato soup with croutons</td>
-      <td>₹110</td>
-    </tr>
-    <tr>
-      <td>Gulab Jamun</td>
-      <td>Dessert</td>
-      <td>Milk-based sweet soaked in rose syrup</td>
-      <td>₹90</td>
-    </tr>
-    <tr>
-      <td>Ice Cream Sundae</td>
-      <td>Dessert</td>
-      <td>Vanilla ice cream topped with choco fudge & nuts</td>
-      <td>₹140</td>
-    </tr>
-  </tbody>
-</table>
         <p>Enjoy your meal at Spice Symphony!</p>
     </center>
     <p>Click here to go back:
@@ -148,7 +173,7 @@
     </p>
     <center>
         <footer>
-          <p>&copy; 2023 Spice Symphony. All rights reserved.</p>
+          <p style="text-align: center;font-size: 14px;">&copy; 2023 Spice Symphony. All rights reserved.</p>
         </footer>
     </center>
 </body>
